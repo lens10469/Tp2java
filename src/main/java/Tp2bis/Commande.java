@@ -1,8 +1,8 @@
 package Tp2bis;
 
-public class Aide {
+public class Commande {
     private int studentId;
-    private String StudentName;
+    private String studentName;
 
     public int getStudentId() {
         return studentId;
@@ -13,11 +13,11 @@ public class Aide {
     }
 
     public String getStudentName() {
-        return StudentName;
+        return studentName;
     }
 
     public void setStudentName(String studentName) {
-        StudentName = studentName;
+        this.studentName = studentName;
     }
 
 
@@ -25,7 +25,7 @@ public class Aide {
     public String toString() {
         return "Aide{" +
                 "studentId=" + studentId +
-                ", StudentName='" + StudentName + '\'' +
+                ", StudentName='" + studentName + '\'' +
                 '}';
     }
 }
